@@ -1,6 +1,7 @@
 <!-- MAIN (Center website) -->
 <div class="main">
   <link rel="stylesheet" href="css/style.css"
+  #more {display: none;}
 <h1>MYLOGO.COM</h1>
 <hr>
 
@@ -44,6 +45,10 @@
   <h3>Some Other Work</h3>
   <p>Lorem ipsum..</p>
 </div>
+
+#more {display: none;}
+
+
 
 <!-- END MAIN -->
 </div>
