@@ -1,14 +1,17 @@
 <!-- MAIN (Center website) -->
 <div class="main">
   <link rel="stylesheet" href="css/style.css"
-  #more {display: none;}
+#more {display: none;}
 <h1>MYLOGO.COM</h1>
 <hr>
 
 <h2>PORTFOLIO</h2>
 <p>Resize the browser window to see the responsive effect.</p>
 
+
 <!-- Portfolio Gallery Grid -->
+
+#more {display: none;}
 <div class="row">
   <div class="column">
     <div class="content">
@@ -46,7 +49,6 @@
   <p>Lorem ipsum..</p>
 </div>
 
-#more {display: none;}
 
 
 
