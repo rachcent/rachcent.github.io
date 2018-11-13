@@ -1,4 +1,4 @@
-let canvas = document.getElementById('bubbles');
+let canvas = document.getElementById('confetti');
 
 canvas.width = 640;
 canvas.height = 480;
