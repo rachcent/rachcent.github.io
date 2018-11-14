@@ -9,7 +9,7 @@ const drone = new ScaleDrone(CLIENT_ID, {
   },
 });
 
-let members = [];
+let members = [40];
 
 drone.on('open', error => {
   if (error) {
