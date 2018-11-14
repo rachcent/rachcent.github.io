@@ -2,7 +2,7 @@
 // If you use this channel ID your app will stop working in the future
 const CLIENT_ID = 'MVTFPPaEOQxEihv0';
 
-const drone = new ScaleDrone(MVTFPPaEOQxEihv0, {
+const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
     name: getRandomName(),
     color: getRandomColor(),
@@ -35,7 +35,9 @@ drone.on('open', error => {
     updateMembersDOM();
   });
 
-  room.on('member_leave', ({id}) => {
+  room.on('member_leave', ({
+    id
+  }) => {
     const index = members.findIndex(member => member.id === id);
     members.splice(index, 1);
     updateMembersDOM();
@@ -97,7 +99,10 @@ function sendMessage() {
 }
 
 function createMemberElement(member) {
-  const { name, color } = member.clientData;
+  const {
+    name,
+    color
+  } = member.clientData;
   const el = document.createElement('div');
   el.appendChild(document.createTextNode(name));
   el.className = 'member';
@@ -128,4 +133,3 @@ function addMessageToListDOM(text, member) {
   if (wasTop) {
     el.scrollTop = el.scrollHeight - el.clientHeight;
   }
-}
