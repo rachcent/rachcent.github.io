@@ -4,12 +4,12 @@ const CLIENT_ID = 'MVTFPPaEOQxEihv0';
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
-    name: getRandomName(),
-    color: getRandomColor(),
+    name: getRandomName(20),
+    color: getRandomColor(20),
   },
 });
 
-let members = [];
+let members = [20];
 
 drone.on('open', error => {
   if (error) {
