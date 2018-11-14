@@ -9,7 +9,7 @@ const drone = new ScaleDrone(CLIENT_ID, {
   },
 });
 
-let members = [40];
+let members = [];
 
 drone.on('open', error => {
   if (error) {
@@ -17,7 +17,7 @@ drone.on('open', error => {
   }
   console.log('Successfully connected to Scaledrone');
 
-  const room = drone.subscribe('observable-');
+  const room = drone.subscribe('observable-room');
   room.on('open', error => {
     if (error) {
       return console.error(error);
@@ -45,31 +45,6 @@ drone.on('open', error => {
     if (member) {
       addMessageToListDOM(text, member);
     } else {
-
-      room.on('members', m => {
- members = m;
- // updateMembersDOM(); uncomment later
-});
-
-// User joined the room
-room.on('member_join', member => {
- members.push(member);
- // updateMembersDOM(); uncomment later
-});
-
-// User left the room
-room.on('member_leave', ({id}) => {
- const index = members.findIndex(member => member.id === id);
- members.splice(index, 1);
- // updateMembersDOM(); uncomment later
-});
-room.on('data', (text, member) => {
- if (member) {
-   // addMessageToListDOM(text, member); uncomment later
- } else {
-   // Message is from server
- }
-});
       // Message is from server
     }
   });
