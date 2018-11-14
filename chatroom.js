@@ -35,9 +35,7 @@ drone.on('open', error => {
     updateMembersDOM();
   });
 
-  room.on('member_leave', ({
-    id
-  }) => {
+  room.on('member_leave', ({id}) => {
     const index = members.findIndex(member => member.id === id);
     members.splice(index, 1);
     updateMembersDOM();
@@ -99,10 +97,7 @@ function sendMessage() {
 }
 
 function createMemberElement(member) {
-  const {
-    name,
-    color
-  } = member.clientData;
+  const { name, color } = member.clientData;
   const el = document.createElement('div');
   el.appendChild(document.createTextNode(name));
   el.className = 'member';
@@ -133,3 +128,4 @@ function addMessageToListDOM(text, member) {
   if (wasTop) {
     el.scrollTop = el.scrollHeight - el.clientHeight;
   }
+}
