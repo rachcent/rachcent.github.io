@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script type='text/chatroom.js' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+  <script type='chatroom.js' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
   <!--<script type='text/javascript' src='http://0.0.0.0:8080/scaledrone.js'></script>-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -61,11 +61,5 @@
   </form>
   <script src="./script.js"></script>
 </body>
-const CHANNEL_ID = 'CHANNEL_ID_FROM_SCALEDRONE';
-const drone = new ScaleDrone(CHANNEL_ID, {
- data: { // Will be sent out as clientData via events
-   name: getRandomName(),
-   color: getRandomColor(),
- },
-});
+
 </html>
