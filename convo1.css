@@ -18,6 +18,7 @@ body {
   animation:
     typing 4.5s steps(30, end),
     blink-caret .5s step-end infinite;
+    transition-delay: 2s;
 }
 
 .typewriter h2 {
@@ -31,7 +32,7 @@ body {
   animation:
     typing 4.5s steps(30, end),
     blink-caret .5s step-end infinite;
-    transition-delay: 1s;
+transition-delay: 2s;
 }
 
 /* The typing effect */
