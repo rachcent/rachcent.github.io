@@ -1,7 +1,8 @@
 
 
 body {
-  {background:
+  {background-image: assets/star.gif("star.gif")
+  background-repeat: repeat;
   background-color:#6B2A83;
   text-align:center;
   color:#D2258D;
