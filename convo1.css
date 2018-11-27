@@ -19,9 +19,7 @@ body {
     typing 4.5s steps(30, end),
     blink-caret .5s step-end infinite;
 }
-div {
-    transition-delay: 2s;
-}
+
 .typewriter h2 {
   color: #fff;
   font-family: monospace;
@@ -33,6 +31,7 @@ div {
   animation:
     typing 4.5s steps(30, end),
     blink-caret .5s step-end infinite;
+    transition-delay: 1s;
 }
 
 /* The typing effect */
