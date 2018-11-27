@@ -7,7 +7,7 @@
     overflow: hidden;
   }
   .css-typing p:nth-child(1) {
-    width: 45.3em;
+    width: 50.3em;
     -webkit-animation: type 2s steps(40, end);
     animation: type 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
