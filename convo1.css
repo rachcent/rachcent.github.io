@@ -127,5 +127,6 @@
     }
   }
   div {
-      background-image: http://i63.tinypic.com/o52h3o.jpg(star.gif);
-      background-repeat:space;
+    #imageonly {
+    background: url<img src="/assets/sendbutton.png">);
+  }
