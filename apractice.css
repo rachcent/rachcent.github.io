@@ -1,8 +1,10 @@
-.center {
-    max-width: 500px;
-    margin: auto;
-    background: white;
-    padding: 10px;
+div.center {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center }
+div.center p {
+  margin: 0 }
 
 
   .css-typing p {
@@ -134,4 +136,3 @@
   }
   div {
 background-image: url("/assets/starry.gif");
- 
