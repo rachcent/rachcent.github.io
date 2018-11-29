@@ -1,4 +1,9 @@
-
+p {
+  font-size: 1.5em;
+  color: #FE7F88;
+  background-image: none;
+  background-color: transparent;
+}
   .css-typing p {
     border-right: .15em solid orange;
     font-family: "Courier";
