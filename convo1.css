@@ -127,7 +127,7 @@
     }
   }
   div {
-#multiimage {  
+#multiimage {
     background:
-     url(http://i65.tinypic.com/1gha92.jpg) repeat;
+     http://i65.tinypic.com/1gha92.jpg (http://i65.tinypic.com/1gha92.jpg) repeat;
   }
