@@ -133,3 +133,4 @@ p {
   }
   div {
 background-image: url("/assets/starry.gif");
+background-repeat: repeat;
