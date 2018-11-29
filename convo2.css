@@ -127,7 +127,7 @@
     }
   }
   div {
-    .myButton{
+    .button{
         background:http://i64.tinypic.com/28srjv9.png(/assets/sendbutton.png) no-repeat;
         cursor:pointer;
         border:none;
@@ -135,6 +135,6 @@
         height:100px;
     }
 
-    myButton:active {
+    button:active {
          background:http://i64.tinypic.com/28srjv9.png(/assets/sendbutton.png) no-repeat;
     }
