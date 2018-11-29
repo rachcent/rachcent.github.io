@@ -127,6 +127,4 @@
     }
   }
   div {
-imageonly {
-      background: url(http://i65.tinypic.com/1gha92.jpg);
-    }
+background-image: url("/assets/starry.gif");
