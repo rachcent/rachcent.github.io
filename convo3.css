@@ -125,7 +125,10 @@
     50% {
       border-color: tranparent;
     }
-  }
-  div {
-      background-image: http://i63.tinypic.com/o52h3o.jpg(star.gif);
-      background-repeat:space;
+    .center {
+        margin: auto;
+        width: 50%;
+        border: 3px solid #ff00bf;
+        padding: 10px;
+        background-color: #FFF;
+    }
