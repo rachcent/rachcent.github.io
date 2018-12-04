@@ -135,7 +135,10 @@
         height:100px;
     }
 
-    button:active {
-         background:http://i64.tinypic.com/28srjv9.png(/assets/sendbutton.png) no-repeat;
+    .center {
+        margin: auto;
+        width: 50%;
+        border: 3px solid #ff00bf;
+        padding: 10px;
+        background-color: #FFF;
     }
-background-image: url("/assets/starry.gif");
