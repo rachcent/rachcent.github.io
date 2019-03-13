@@ -1,5 +1,5 @@
 body {
-  background:url(nature,jpeg) no repeat;
+  background:url(nature.jpeg) no repeat;
   background-size: cover;
   font-family: Arial;
   color:white;
@@ -15,6 +15,6 @@ ul li{
   width: 200px;
   height:40px;
   background-color:black;
-  
+
 
 }
