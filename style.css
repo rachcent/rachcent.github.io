@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-color: #55d6aa;
+  background-color:#55d6aa;
 }
 
 header:after{
@@ -23,4 +23,16 @@ header:after{
   float:left
 }
 
-nav
+nav {
+  float:right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list style: none;
+}
+
+nav li{
+  display:inline-block;
+}
