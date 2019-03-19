@@ -1,42 +1,26 @@
 body {
-  background:url(nature.jpeg) no repeat;
-  background-size: cover;
-  font-family: Arial;
-  color:white;
+  margin: 0
+  background: #222;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
-}
-ul {
-  margin: 0px;
-  padding: 0px;
-  list-style:none;
+header {
+  background-color: #55d6aa;
 }
 
-ul li{
-  float:left;
-  width: 200px;
-  height:40px;
-  background-color: black;
-  opacity: .8;
-  line height: 40px;
-  text-align: center;
-  font-size:20px;
-  margin-right: 10px;
+header:after{
+  content:'';
+  display: table;
+  clear: both;
+}
 
+.logo {
+  float:left
 }
-ul li a {
-  text-decoration: none;
-  color:white;
-  display: block;
-}
-ul li a:hover {
-  background-color:green;
 
-}
-ul li ul li{
-  display: none;
-}
-ul li:hover ul li {
-  display: block;
-
-}
+nav
