@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
 body {
-  margin: 0
-  background: #222;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+margin: 0
+background: #222;
+font-family:
+'Work Sans', sans-serif;
+  font-weight: 800;
 }
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -13,7 +17,7 @@ header {
   background-color:#55d6aa;
 }
 
-header:after{
+header:after {
   content:'';
   display: table;
   clear: both;
@@ -21,6 +25,7 @@ header:after{
 
 .logo {
   float:left
+  padding: 10px 0;
 }
 
 nav {
@@ -33,6 +38,8 @@ nav ul {
   list style: none;
 }
 
-nav li{
+nav li {
   display:inline-block;
 }
+  margin-left: 70 px;
+  padding-top: 23px;
