@@ -1,5 +1,5 @@
 .header {
-  padding: 60px;
+  padding: 40px;
   text-align: center;
   background: #b366ff;
   color: black;
@@ -9,7 +9,7 @@
 /* Style the navigation bar */
 .navbar {
   width: 100%;
-  background-color: #555;
+  background-color: #1a001a;
 	text-align: center;
   overflow: auto;
 }
