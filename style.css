@@ -1,20 +1,19 @@
 .header {
   padding: 40px;
   text-align: center;
-  background: #b366ff;
-  color: black;
+  background: white;
+  color: Black;
   font-family: 'Jura', sans-serif;
-  font-weight:light
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* Style the navigation bar */
 .navbar {
   width: 100%;
-  background-color: #1a001a;
+  background-color: #d9f2e6;
   font-family: 'Spinnaker', sans-serif;
 	text-align: center;
-  overflow: auto;
+  overflow: hidden;
 }
 
 nav li{
@@ -31,7 +30,7 @@ nav {
   float: center;
   text-align: center;
   padding: 12px;
-  color: white;
+  color: Black;
 	text-align: center;
   text-decoration: none;
   font-size: 20px;
@@ -39,12 +38,12 @@ nav {
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
-  background-color: #000;
+  background-color:#d1d1e0
 }
 
 /* Current/active navbar link */
 .active {
-  background-color: #1a001a;
+  background-color: white;
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
