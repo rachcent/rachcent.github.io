@@ -1,54 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
-body {
-	margin: 0;
-	background: #222;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 800;
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+	text-align: center;
+  overflow: auto;
 }
 
-.container {
-	width: 80%;
-	margin: 0 auto;
+nav li{
+	float:left;
+	display:inline;
 }
-
-header {
-  background: #55d6aa;
-}
-
-header::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.logo {
-  float: left;
-  padding: 10px 0;
-}
-
 nav {
-  float: right;
+	display: inline-block;
 }
 
-ul {
-	list-style: none;
-	margin: 0px;
-	padding: 0px;
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+	text-align: center;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-li{
-	display: inline
-	margin: 10px;
-	padding: 100px;
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
 }
 
-nav ul {
-  margin: 10px;
-  padding: 10px;
-  list-style:none;
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
 }
 
-nav li {
-  display: inline-block;
-  margin-left: 200px;
-  padding-top: 23px;
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
