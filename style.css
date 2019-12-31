@@ -3,7 +3,7 @@
   text-align: center;
   background: white;
   color: Black;
-  font-family: 'Jura', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size: 30px;
 }
 
@@ -11,7 +11,7 @@
 .navbar {
   width: 100%;
   background-color: #d9f2e6;
-  font-family: 'Spinnaker', sans-serif;
+  font-family: 'Abel', sans-serif;
 	text-align: center;
   overflow: hidden;
 }
@@ -38,7 +38,7 @@ nav {
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
-  background-color:#d1d1e0
+color: #f10;
 }
 
 /* Current/active navbar link */
