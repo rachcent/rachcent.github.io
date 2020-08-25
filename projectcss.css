@@ -22,8 +22,8 @@ text-decoration: none;
 
 img {
   display: block;
-  margin: 0px auto;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* When you put a period in front of a CSS declaration, it indicates you are
