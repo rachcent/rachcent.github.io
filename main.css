@@ -4,7 +4,15 @@ body{
   font-family: arial;
   background: #97eabf
 
+}
 
+.banner {
+  margin: 0 px auto;
+  padding:0;
+  height: 10%
+  width:100%
+  overflow: hidden;
+  border: solid;
 }
 
 .nav-area{

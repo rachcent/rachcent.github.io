@@ -9,6 +9,17 @@ body {
 
 h1 {
   padding: 20px 0px 10px 0px;
+  text-align: center;
+}
+
+h2 {
+  padding: 20px 0px 10px 0px;
+  text-align: center;
+}
+
+h3 {
+  padding: 20px 0px 10px 0px;
+  text-align: center;
 }
 
 /* This changes color and removes default underline in links  */
