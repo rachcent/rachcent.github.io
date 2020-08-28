@@ -7,7 +7,8 @@ text-align: center;
 /* Solid border */
 hr {
   border: 2px solid #bbb;
-  padding:5px;
+  margin-top: 70px;
+  margin-bottom: 75px;
 
 }
 
