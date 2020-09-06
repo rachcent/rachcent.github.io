@@ -7,6 +7,10 @@ body{
 
 }
 
+h1{
+  text-align: center;
+}
+
 .nav-area{
   display: -webkit-flex;
   display:-moz-flex;
