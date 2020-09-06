@@ -1,3 +1,12 @@
+.banner {
+  margin-top: 150px;
+  margin: 0 px auto;
+  height: 70%
+  width:100%
+  overflow: hidden;
+
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -13,15 +22,7 @@ img {
   margin-right: auto;
 }
 
-.banner {
-  margin-top: 200px;
-  margin: 0 px auto;
-  padding:50px;
-  height: 70%
-  width:100%
-  overflow: hidden;
 
-}
 
 .nav-area{
   display: -webkit-flex;
