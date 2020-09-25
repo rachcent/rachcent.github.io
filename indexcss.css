@@ -4,6 +4,9 @@ body{
   font-family: arial;
   background: #2e3145;
 }
+h1{
+padding-top: 1em;
+}
 
 .header{
 text-align:center;
