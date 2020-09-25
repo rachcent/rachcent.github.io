@@ -7,7 +7,6 @@ body{
 h1{
   padding-top: 1em;
   font-size:50px;
-  color:#fff;
 }
 
 h2{
@@ -21,16 +20,28 @@ h2{
   text-align: center;
   bottom: 0px;
   width: 100%;
-  color:#1d1e21;
+  color:#b694cb;
+}
+
+.banner{
+  text-align:center;
+  position: sticky;
+  top: 0;
 }
 
 .header{
 text-align:center;
-padding-top: 20px;
 }
 
 a {
-text-decoration: none;
+     margin: 20px;
+     text-decoration: none;
+     color:#fff;
+     -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+     transition: color 1s; /* For modern browsers */
+ }
+ a:hover {
+     color: #9233cb;
  }
 
  .page-wrap {
@@ -116,7 +127,7 @@ input[name="r"]{
   display: flex;
   position: absolute;
   transform:translate(-50%,-50%);
-  /* top: 25%; */
+  top: 25%;
   left: 50%;
   margin: 0;
   padding: 0;
