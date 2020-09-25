@@ -6,6 +6,7 @@ body{
 }
 h1{
 padding-top: 1em;
+font-size:50px;
 }
 
 .header{
@@ -24,7 +25,7 @@ text-decoration: none;
 }
 .middle{
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -94,7 +95,7 @@ input[name="r"]{
   display: flex;
   position: absolute;
   transform:translate(-50%,-50%);
-  top: 15%;
+  top: 25%;
   left: 50%;
   margin: 0;
   padding: 0;
