@@ -5,6 +5,14 @@ body{
   background: #2e3145;
 }
 
+.header{
+text-align:center;
+}
+
+a {
+text-decoration: none;
+ }
+
 /*----------------- navigation on the homepage ---------------------*/
 .slidershow{
   width: 700px;
@@ -96,6 +104,7 @@ input[name="r"]{
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
+    font-size: 12px;
     padding: 10px 20px;
     font-weight: bold;
     transition: .5s;
