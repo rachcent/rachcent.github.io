@@ -1,3 +1,69 @@
+/* ----------------------------------- */
+* {
+box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+max-width: 1000px;
+margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 150%;
+}
+
+/* Clear floats after rows */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Content */
+.content {
+background-color: white;
+display: table-cell;
+padding: 5px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+.column {
+  width: 50%;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+  width: 100%;
+}
+}
+
+/* ------------------------------------------- */
+
 body{
   margin: 0;
   padding: 0;
@@ -19,6 +85,11 @@ h2{
 h3{
     text-align: center;
     color: #fff;
+}
+
+h4{
+    text-align: center;
+    color: #2e314;
 }
 
 h5{
@@ -70,6 +141,8 @@ a {
  width: 960px;
  margin: 0 auto;
  }
+
+
 
 /*----------------- navigation on the homepage ---------------------*/
 .slidershow{
@@ -162,7 +235,7 @@ input[name="r"]{
     text-decoration: none;
     text-transform: uppercase;
     color: #9ea0a9;
-    font-size: 15px;
+    font-size: 12px;
     padding: 10px 20px;
     font-weight: bold;
     transition: .5s;
