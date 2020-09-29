@@ -16,6 +16,7 @@
 .row,
 .row > .column {
   padding: 8px;
+  padding-top: 30px;
 }
 
 /* Create four equal columns that floats next to each other */
