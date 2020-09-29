@@ -115,7 +115,6 @@ position: relative;
 }
 
 a {
-     margin: 20px;
      text-decoration: none;
      color:#fff;
      -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
